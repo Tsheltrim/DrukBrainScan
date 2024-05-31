@@ -2,7 +2,7 @@
 FROM python:3.8-slim
 
 # Set environment variables
-ENV FLASK_APP=app.py
+ENV FLASK_APP=app
 ENV FLASK_RUN_HOST=0.0.0.0
 
 # Set the working directory in the container
