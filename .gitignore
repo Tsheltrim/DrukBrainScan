@@ -1,0 +1,20 @@
+# Ignore .env files
+.env
+
+# Ignore Python virtual environment directories
+venv/
+.env/
+
+# Ignore any compiled Python files
+*.pyc
+
+# Ignore local development configuration
+config/local_settings.py
+
+# Ignore IDE files
+.vscode/
+.idea/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
