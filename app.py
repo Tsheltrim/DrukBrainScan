@@ -71,5 +71,6 @@ def result(filename):
     
     return render_template('result.html', filename=filename, result=result_text)
 
-if __name__ == '__main__':
-    app.run(debug=True)
+if __name__ == "__main__":
+    app.run(debug=True, use_reloader=False)
+
